@@ -1,0 +1,14 @@
+sudo
+sudo yum -y install epel-release
+sudo yum -y install firewalld
+sudo sytemctl start firewalld
+sudo systmctl enable firewalld
+sudo yum -y install git
+mkdir ~/github
+cd ~/github
+git config --global user.name "krishna3112017"
+git config --global user.email "krishna.chikballa@gmail.com"
+git config --global core.editor /usr/bin/vi
+git config --global colour.ui true
+git init 
+sudo yum -y update
